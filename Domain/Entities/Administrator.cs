@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using MINIMALAPI.Domain.Enums;
 namespace MINIMALAPI.Domain.Entities
 {
     public class Administrator
