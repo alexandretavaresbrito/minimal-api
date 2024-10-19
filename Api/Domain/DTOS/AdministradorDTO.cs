@@ -8,8 +8,8 @@ namespace MINIMALAPI.Domain.DTOS
 {
     public class AdministradorDTO
     {
-        public required string Email { get; set; } = default!;
-        public required string Senha { get; set; } = default!;
-        public required PerfilEnum? Perfil { get; set; } = default!;    
+        public string Email { get; set; } = default!;
+        public string Senha { get; set; } = default!;
+        public PerfilEnum? Perfil { get; set; } = default!;    
     }
 }

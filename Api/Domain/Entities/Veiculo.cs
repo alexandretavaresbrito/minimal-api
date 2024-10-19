@@ -6,14 +6,14 @@ namespace MINIMALAPI.Domain.Entities
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Id { get; set; }
+        public int Id { get; set; } = default!;
         [Required]
         [StringLength(150)]
-        public required string Nome { get; set; }
+        public string Nome { get; set; } = default!;
         [Required]
         [StringLength(100)]
-        public required string Marca { get; set; }
+        public string Marca { get; set; } = default!;
         [Required]
-        public int Ano { get; set; }
+        public int Ano { get; set; } = default!;
     }
 }
